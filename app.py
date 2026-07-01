@@ -421,6 +421,7 @@ tela_recurso = criar_tela_crud(
     ],
     campos_obrigatorios=[
         "nome_recurso",
+	"tipo",
         "qtde_disponivel"
     ],
     campos_inteiros=["qtde_disponivel"]
