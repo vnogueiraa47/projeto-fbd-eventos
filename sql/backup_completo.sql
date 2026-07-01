@@ -2,12 +2,12 @@
 -- PostgreSQL database dump
 --
 
-\restrict z2qkS27S1ofzNjthe2VqBBgb54vq63jGyjdVfnXt0hhqjCG8GyZd8My4IC0hoVi
+\restrict L9hePFWZhegtGtuJxMdQU4RCdcoUNJFvfmkRHXhcJl8PYGWVgk8036ipPvdSeLS
 
 -- Dumped from database version 18.4
 -- Dumped by pg_dump version 18.4
 
--- Started on 2026-07-01 08:47:45
+-- Started on 2026-07-01 09:07:24
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -614,6 +614,11 @@ COPY public.organizador (id_usuario, data_vinculacao, area_responsavel) FROM std
 13	2019-07-22	Ciências Biomédicas
 14	2021-09-05	Administração
 15	2022-02-28	Artes e Humanidades
+6	2025-01-15	Logística
+7	2025-02-10	Comunicação
+8	2025-03-05	Infraestrutura
+9	2025-04-20	Credenciamento
+10	2025-05-12	Apoio Técnico
 \.
 
 
@@ -1028,11 +1033,11 @@ ALTER TABLE ONLY public.utiliza
     ADD CONSTRAINT utiliza_id_recurso_fkey FOREIGN KEY (id_recurso) REFERENCES public.recurso(id_recurso) ON DELETE CASCADE;
 
 
--- Completed on 2026-07-01 08:47:46
+-- Completed on 2026-07-01 09:07:24
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict z2qkS27S1ofzNjthe2VqBBgb54vq63jGyjdVfnXt0hhqjCG8GyZd8My4IC0hoVi
+\unrestrict L9hePFWZhegtGtuJxMdQU4RCdcoUNJFvfmkRHXhcJl8PYGWVgk8036ipPvdSeLS
 
