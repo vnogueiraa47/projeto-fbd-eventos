@@ -384,7 +384,7 @@ tela_local = criar_tela_crud(
             "placeholder": "Ex.: 100"
         }
     ],
-    campos_obrigatorios=["nome_local"],
+    campos_obrigatorios=["nome_local", "capacidade"],
     campos_inteiros=["capacidade"]
 )
 
